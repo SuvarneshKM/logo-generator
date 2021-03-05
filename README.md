@@ -18,6 +18,9 @@ Basically we just edit the svg file and convert it into png. BOOM!!!
 1. Clone this repo 
 2. Open the ```index.html``` file using your browser.
 
+# Inspired From
+TinkerHub Campus Logo Generator :  [campus-logo-generator](https://github.com/tinkerhub-org/campus-logo-generator)
+
 # Contributors List
 1. Suvarnesh K M : [suvarneshkm](https://github.com/suvarneshkm)
 2. Rafi Rasheed T C : [rafitc](https://github.com/rafitc)
