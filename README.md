@@ -7,7 +7,7 @@ This logos will be used in posters, videos and posts about the coolest initiativ
 Basically we just edit the svg file and convert it into png. BOOM!!!
 
 # Browsers support
-| [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" alt="Chrome" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Chrome |
+[<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" alt="Chrome" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Chrome
 
 # Libraries and tools used
 1. HTML, CSS, JS
