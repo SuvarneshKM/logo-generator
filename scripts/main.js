@@ -15,7 +15,7 @@ function triggerDownload(imgURI) {
 
     var a = document.createElement('a');
     var str = document.getElementById('collegeName').value;
-    a.setAttribute('download', "HackClub_".concat(str).concat(".png"));
+    a.setAttribute('download', "Hack_Club_".concat(str).concat(".png"));
     a.setAttribute('href', imgURI);
     a.setAttribute('target', '_blank');
 
