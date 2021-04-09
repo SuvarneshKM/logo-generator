@@ -43,6 +43,12 @@
   height: auto;
 }
 
+#svgLogo1 {
+  width: 30%;
+  height: auto;
+}
+
+
 #canvas {
   width: 0;
   height: auto;
@@ -59,4 +65,8 @@
 
 svg {
   transition: 0.5s;
+}
+
+.is-hidden {
+  display: none;
 }
