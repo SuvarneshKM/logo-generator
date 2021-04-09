@@ -2,6 +2,9 @@ var svgLogo = document.getElementById("svgLogo");
 var svgLogo1 = document.getElementById("svgLogo1");
 var canvas = document.querySelector('canvas');
 
+// new variable currentSVG
+let currentSVG = svgLogo
+
 function reverseString(str) {
     return str.split("").reverse().join("");
 }
@@ -9,8 +12,6 @@ function reverseString(str) {
 document.getElementById('toggleColor').addEventListener('click', function (evt) {
 
     var cardTemplate = document.querySelector(".card")
-    let svgLogo = document.getElementById("svgLogo");
-    let svgLogo1 = document.getElementById("svgLogo1");
 
     // Check current state
     if (evt.target.innerHTML === "Dark Theme") {
@@ -21,7 +22,9 @@ document.getElementById('toggleColor').addEventListener('click', function (evt) 
         document.getElementById("toggleColor").classList.add('btn-light');
         svgLogo.classList.add("is-hidden");
         svgLogo1.classList.remove("is-hidden");
-        return data = (new XMLSerializer()).serializeToString(svgLogo1);
+
+        // set currentSvg to first image
+        currentSVG = svgLogo1
 
     } else {
         cardTemplate.style.backgroundColor = "white";
@@ -31,7 +34,10 @@ document.getElementById('toggleColor').addEventListener('click', function (evt) 
         document.getElementById("toggleColor").classList.add('btn-dark');
         svgLogo.classList.remove("is-hidden");
         svgLogo1.classList.add("is-hidden");
-        return data = (new XMLSerializer()).serializeToString(svgLogo);
+
+        // set currentSvg to second image
+		currentSVG = svgLogo
+
     }
 
 })
@@ -57,6 +63,9 @@ document.getElementById('myBtn').addEventListener('click', function () {
     var canvas = document.getElementById('canvas');
     var ctx = canvas.getContext('2d');
     var DOMURL = window.URL || window.webkitURL || window;
+
+    // getting the content of the current svg
+    let data = (new XMLSerializer()).serializeToString(currentSVG)
 
     var img = new Image();
     var svgBlob = new Blob([data], {
@@ -91,4 +100,3 @@ function changeCollegeName() {
     document.getElementById('logoName1').textContent = collegeName;
     document.getElementById('logoName2').textContent = collegeName;
 }
-
