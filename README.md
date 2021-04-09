@@ -24,4 +24,5 @@ TinkerHub Campus Logo Generator :  [campus-logo-generator](https://github.com/ti
 # Contributors List
 1. Suvarnesh K M : [suvarneshkm](https://github.com/suvarneshkm)
 2. Rafi Rasheed T C : [rafitc](https://github.com/rafitc)
-3. Akhil T J: [itexpert2572000](https://github.com/itexpert2572000)
+3. Akhil T J : [itexpert2572000](https://github.com/itexpert2572000)
+4. Akash K : [amk-dev](https://github.com/amk-dev)
