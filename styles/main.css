@@ -1,72 +1,77 @@
 @font-face {
-  font-family: 'Satoshi-Regular';
-  src: url('./fonts/Satoshi-Medium.woff2') format('woff2'),
-       url('./fonts/Satoshi-Medium.woff') format('woff');
-       font-weight: 400;
-       font-display: swap;
-       font-style: normal;
+    font-family: 'Satoshi-Regular';
+    src: url('./fonts/Satoshi-Medium.woff2') format('woff2'), url('./fonts/Satoshi-Medium.woff') format('woff');
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: 'Satoshi-Bold';
-  src: url('./fonts/Satoshi-Black.woff2') format('woff2'),
-       url('./fonts/Satoshi-Black.woff') format('woff');
-       font-weight: 700;
-       font-display: swap;
-       font-style: normal;
+    font-family: 'Satoshi-Bold';
+    src: url('./fonts/Satoshi-Black.woff2') format('woff2'), url('./fonts/Satoshi-Black.woff') format('woff');
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal;
 }
 
 .bg-light-white {
-  background-color: #f3f3f3;
+    background-color: #f3f3f3;
 }
 
 .social-icon {
-  color: #3b568d;
-  text-decoration: none !important;
+    color: #3b568d;
+    text-decoration: none !important;
 }
 
 .text-red {
-  color: #ec3750;
+    color: #ec3750;
 }
 
 .btn-primary {
-  color: white !important;
-  background-color: #14599f !important;
+    color: white !important;
+    background-color: #14599f !important;
 }
 
 .btn-primary:hover {
-  background-color: #3b568d !important;
+    background-color: #3b568d !important;
 }
 
 #svgLogo {
-  width: 30%;
-  height: auto;
+    width: 30%;
+    height: auto;
 }
 
 #svgLogo1 {
-  width: 30%;
-  height: auto;
+    width: 30%;
+    height: auto;
 }
 
-
 #canvas {
-  width: 0;
-  height: auto;
+    width: 0;
+    height: auto;
 }
 
 .text-sm {
-  font-size: small;
+    font-size: small;
 }
 
 .preview-text {
-  color: #6c757d;
-  transition: 0.5s;
+    color: #6c757d;
+    transition: 0.5s;
 }
 
 svg {
-  transition: 0.5s;
+    transition: 0.5s;
 }
 
 .is-hidden {
-  display: none;
+    display: none;
+}
+
+.css-hovers:focus,
+.css-hovers:hover {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.0625), 0 8px 12px rgba(0, 0, 0, 0.125);
+    -webkit-transform: scale(1.0625);
+    -ms-transform: scale(1.0625);
+    transform: scale(1.0625);
 }
