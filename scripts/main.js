@@ -13,6 +13,7 @@ document.getElementById('toggleColor').addEventListener('click', function(evt) {
 
         var cardTemplate = document.querySelector(".card")
 
+        
         // Check current state
         if (evt.target.innerHTML === "Dark Theme") {
             cardTemplate.style.backgroundColor = "#191919";
